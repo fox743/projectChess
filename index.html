@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Chess</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">Şahmat</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ev</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dahilər</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Taktikalar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sicilya</a></li>
+                            <li><a class="dropdown-item" href="#">İspanyol Açılışı</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">İtalyan Açılışı</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Axtar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Axtar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide m-5" data-bs-ride="carousel"  >
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/image1.png" class="d-block w-100 text-center" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/image2.webp" class="d-block w-100 text-center" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/image3.webp" class="d-block w-100 text-center" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <hr>
+    <h1 class="display-1 text-center">Şahmat</h1>
+
+    <div class="card-group">
+        <div class="card">
+            <img src="./img/kasparov.webp" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Harri Kasparov </h5>
+                <p class="card-text">Harri Kimoviç Kasparov (Vaynşteyn; 13 aprel 1963[3][4][…], Bakı[5]) — sovet,
+                    rusiyalı şahmatçı. Şahmat üzrə beynəlxalq dərəcəli qrosmeyster (1980), gənclər arasında dünya
+                    çempionu (1980), SSRİ çempionu (1981, 1988), 13-cü dünya çempionu (1985–2000) və Rusiya çempionu
+                    (2004). 11 dəfə "Şahmat Oskarı"nın sahibidir (1982, 1983, 1985, 1986, 1987, 1988, 1995, 1996, 1999,
+                    2001, 2002)</p>
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="./img/magnus.jpg" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Magnus Carlsen</h5>
+                <p class="card-text">Maqnus Karlsen (30 noyabr 1990[2], Tönsberq[d], Norveç[3]) — Norveç şahmatçısı,
+                    qrosmeyster (2004), 5 qat Dünya Şahmat Çempionu, 4 qat Dünya Sürətli Şahmat Çempionu, 6 qat Dünya
+                    Blitz Şahmat Çempionu.
+ 
+                    Karlsen 2011-ci il iyulun 1-dən FİDE-nin dünya şahmat reytinqində 1-ci yerdədir və dünyanın ən
+                    yüksək reytinqli oyunçusu kimi Harri Kasparovdan (255 ay) sonra ikincidir. Ən yüksək reytinqi
+                    2882-dir, tarixdə ən yüksək reytinqdir.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/mikail.webp" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mixail Tal</h5>
+                <p class="card-text">Mixail Tal 1936-cı il noyabrın 9-da Riqada anadan olmuşdur. Uşaq yaşlarından
+                    bacarığı, fenomenal yaddaşı ilə hamıdan fərqlənirdi. Artıq 3 yaşında ikən o, oxumağı bacarırdı.
+                    Birinci sinfə gəldikdən iki gün sonra onu üçüncü sinfə keçirirlər. 1952-ci ildə Latviya
+                    universitetinə daxil olmaq üçün ərizə verəndə, Talı qəbul etmirlər, çünki hələ 16 yaşı tamam
+                    olmamışdı.
+
+                    Uşaq yaşlarında o, musiqiyə, riyaziyyata və futbola daha çox maraq göstərirdi. Bu yaşlarında atası
+                    onu şahmatla tanış edir. Bu oyun onda xüsusi maraq oyadır. 17 yaşında şahmat dərnəyinə üzv yazıldı,
+                    18 yaşında isə usta normasını yerinə yetirdi. Gənc ustaya ölkə çempionu və qrosmeyster adını almaq
+                    üçün cəmi 3 il vaxt lazım oldu.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h1 class="display-1 text-center">Taktikalar</h1>
+
+    <div class="card-group ">
+        <div class="card">
+            <img src="./img/scillya.jpg" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sicilya Savunması</h5>
+                <p class="card-text">Aşağıdaki hamlelerle başlar:
+
+                    1.e4 c5
+                    Sicilya Savunması, usta seviyesinde 1.e4'e karşı en sık uygulanan savunma tarzıdır. Savunmanın
+                    özünde siyahın değişimden sonra açılan C dikeyine yaptığı baskı yatar. Bu asimetrik pozisyon oldukça
+                    karmaşık pozisyonların oluşmasına neden olur. Genelde beyaz şah kanadında doğru saldırıya geçerken
+                    siyah da vezir kanadında karşı oyun arar. Sicilya Savunmasında genel olarak, siyah oyun ortasındaki
+                    problemleri atlatırsa oyun sonunda avantajlıdır görüşü hakimdir.</p>
+            </div>
+          
+        </div>
+        <div class="card">
+            <img src="./img/ispanyol.jpg" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">İspanyol Açılışı </h5>
+                <p class="card-text">İspanyol Açılışı ya da Ruy Lopez, 1.e4 e5 2.Af3 Ac6 3.Fb5 hamleleriyle ortaya çıkan
+                    bir satranç açılışıdır. Bu açılış adını 15. yüzyılda bu açılışı incelemiş olan İspanyol rahip Ruy
+                    Lopez'den alır.</p>
+            </div>
+            
+        </div>
+        <div class="card">
+            <img src="./img/italyanacilis.png" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">İtalyan Açılışı </h5>
+                <p class="card-text">İtalyan Açılışı aşağıdaki hamlelerle başlayan satranç açılışına verilen addır:
+
+                    e4 e5
+                    Af3 Ac6
+                    Fc4
+                    Bu açılış, beyaz filin c4'e ("İtalyan fili" olarak adlandırılır) gelişmesi ve burada Siyah'ın
+                    savunmasız f7 karesine saldırmasıyla tanımlanır. Geniş Açık Oyunlar ya da Çift Şah Piyon Oyunları
+                    ailesinin bir parçasıdır.
+
+                    İtalyan Oyunu, kaydedilmiş en eski satranç açılışlarından biridir; Göttingen yazmalarında yer alır
+                    ve 16. yüzyılda Damiano ve Polerio gibi oyuncular tarafından ve daha sonra 1620'de oyuna ana
+                    çizgisini veren Greco tarafından geliştirilmiştir. Bu oyun 300 yılı aşkın bir süredir kapsamlı bir
+                    şekilde analiz edilmektedir.
+
+                    İtalyan Oyunu terimi bazen Giuoco Piano ile birbirinin yerine kullanılır, ancak ikincisi özellikle
+                    3...Bc5 sonrasındaki oyunu da ifade eder.</p>
+            </div>
+          
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <a href="https://wa.me/+994773130686">
+          <img src="./img/wp.png" alt="" class="mx-auto d-block">
+        </a>
+      </div>
+      <div class="container mb-5">
+        <a href="tel:+994773130686"><img src="./img/phone-call.png" alt="" class=" d-block mx-auto " width="40px"></a>
+      </div>
+    <div class="bg-dark fixed-bottom text-white text-center py-2" >Design by Huseyn Seferov &copy; 2024</div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
